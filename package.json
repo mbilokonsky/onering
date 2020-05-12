@@ -1,0 +1,12 @@
+{
+  "name": "onering",
+  "version": "1.0.0",
+  "description": "A reverse proxy to expose disparate localhost processes under a single port",
+  "main": "index.js",
+  "scripts": {
+    "initialize_nginx": "scripts/install.sh",
+    "mock": "node mock.js"
+  },
+  "author": "@mykola",
+  "license": "ISC"
+}
